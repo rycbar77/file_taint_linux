@@ -17,9 +17,9 @@
       "obj-intel64/fibonacci.exe",
       "fibonacci.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/fibonacci.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/fibonacci.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/fibonacci.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/fibonacci.exe"
   },
   {
     "arguments": [
@@ -39,9 +39,9 @@
       "obj-intel64/little_malloc.exe",
       "little_malloc.c"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/little_malloc.c",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/little_malloc.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/little_malloc.c",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/little_malloc.exe"
   },
   {
     "arguments": [
@@ -61,9 +61,9 @@
       "obj-intel64/fork_app.exe",
       "fork_app.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/fork_app.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/fork_app.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/fork_app.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/fork_app.exe"
   },
   {
     "arguments": [
@@ -83,9 +83,9 @@
       "obj-intel64/follow_child_app1.exe",
       "follow_child_app1.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/follow_child_app1.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/follow_child_app1.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/follow_child_app1.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/follow_child_app1.exe"
   },
   {
     "arguments": [
@@ -105,9 +105,9 @@
       "obj-intel64/follow_child_app2.exe",
       "follow_child_app2.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/follow_child_app2.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/follow_child_app2.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/follow_child_app2.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/follow_child_app2.exe"
   },
   {
     "arguments": [
@@ -127,9 +127,9 @@
       "obj-intel64/divide_by_zero.exe",
       "divide_by_zero_unix.c"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/divide_by_zero_unix.c",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/divide_by_zero.exe"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/divide_by_zero_unix.c",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/divide_by_zero.exe"
   },
   {
     "arguments": [
@@ -152,17 +152,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -175,9 +175,9 @@
       "obj-intel64/inscount0.o",
       "inscount0.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/inscount0.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/inscount0.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/inscount0.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/inscount0.o"
   },
   {
     "arguments": [
@@ -200,17 +200,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -223,9 +223,9 @@
       "obj-intel64/inscount1.o",
       "inscount1.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/inscount1.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/inscount1.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/inscount1.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/inscount1.o"
   },
   {
     "arguments": [
@@ -248,17 +248,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -271,9 +271,9 @@
       "obj-intel64/inscount2.o",
       "inscount2.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/inscount2.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/inscount2.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/inscount2.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/inscount2.o"
   },
   {
     "arguments": [
@@ -296,17 +296,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -319,9 +319,9 @@
       "obj-intel64/proccount.o",
       "proccount.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/proccount.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/proccount.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/proccount.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/proccount.o"
   },
   {
     "arguments": [
@@ -344,17 +344,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -367,9 +367,9 @@
       "obj-intel64/imageload.o",
       "imageload.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/imageload.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/imageload.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/imageload.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/imageload.o"
   },
   {
     "arguments": [
@@ -392,17 +392,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -415,9 +415,9 @@
       "obj-intel64/staticcount.o",
       "staticcount.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/staticcount.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/staticcount.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/staticcount.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/staticcount.o"
   },
   {
     "arguments": [
@@ -440,17 +440,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -463,9 +463,9 @@
       "obj-intel64/detach.o",
       "detach.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/detach.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/detach.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/detach.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/detach.o"
   },
   {
     "arguments": [
@@ -488,17 +488,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -511,9 +511,9 @@
       "obj-intel64/malloctrace.o",
       "malloctrace.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/malloctrace.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/malloctrace.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/malloctrace.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/malloctrace.o"
   },
   {
     "arguments": [
@@ -536,17 +536,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -559,9 +559,9 @@
       "obj-intel64/malloc_mt.o",
       "malloc_mt.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/malloc_mt.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/malloc_mt.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/malloc_mt.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/malloc_mt.o"
   },
   {
     "arguments": [
@@ -584,17 +584,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -607,9 +607,9 @@
       "obj-intel64/inscount_tls.o",
       "inscount_tls.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/inscount_tls.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/inscount_tls.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/inscount_tls.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/inscount_tls.o"
   },
   {
     "arguments": [
@@ -632,17 +632,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -655,9 +655,9 @@
       "obj-intel64/stack-debugger.o",
       "stack-debugger.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/stack-debugger.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/stack-debugger.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/stack-debugger.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/stack-debugger.o"
   },
   {
     "arguments": [
@@ -680,17 +680,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -703,9 +703,9 @@
       "obj-intel64/pinatrace.o",
       "pinatrace.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/pinatrace.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/pinatrace.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/pinatrace.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/pinatrace.o"
   },
   {
     "arguments": [
@@ -728,17 +728,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -751,9 +751,9 @@
       "obj-intel64/itrace.o",
       "itrace.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/itrace.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/itrace.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/itrace.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/itrace.o"
   },
   {
     "arguments": [
@@ -776,17 +776,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -799,9 +799,9 @@
       "obj-intel64/isampling.o",
       "isampling.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/isampling.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/isampling.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/isampling.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/isampling.o"
   },
   {
     "arguments": [
@@ -824,17 +824,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -847,9 +847,9 @@
       "obj-intel64/safecopy.o",
       "safecopy.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/safecopy.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/safecopy.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/safecopy.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/safecopy.o"
   },
   {
     "arguments": [
@@ -872,17 +872,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -895,9 +895,9 @@
       "obj-intel64/invocation.o",
       "invocation.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/invocation.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/invocation.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/invocation.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/invocation.o"
   },
   {
     "arguments": [
@@ -920,17 +920,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -943,9 +943,9 @@
       "obj-intel64/countreps.o",
       "countreps.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/countreps.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/countreps.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/countreps.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/countreps.o"
   },
   {
     "arguments": [
@@ -968,17 +968,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -991,9 +991,9 @@
       "obj-intel64/nonstatica.o",
       "nonstatica.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/nonstatica.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/nonstatica.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/nonstatica.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/nonstatica.o"
   },
   {
     "arguments": [
@@ -1016,17 +1016,65 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "-I../../../extras/components/include",
+      "-I../../../extras/xed-intel64/include/xed",
+      "-I../../../source/tools/Utils",
+      "-I../../../source/tools/InstLib",
+      "-O3",
+      "-fomit-frame-pointer",
+      "-fno-strict-aliasing",
+      "-c",
+      "-o",
+      "obj-intel64/file_taint.o",
+      "file_taint.cpp"
+    ],
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/file_taint.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/file_taint.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Werror",
+      "-Wno-unknown-pragmas",
+      "-DPIN_CRT=1",
+      "-fno-stack-protector",
+      "-fno-exceptions",
+      "-funwind-tables",
+      "-fasynchronous-unwind-tables",
+      "-fno-rtti",
+      "-DTARGET_IA32E",
+      "-DHOST_IA32E",
+      "-fPIC",
+      "-DTARGET_LINUX",
+      "-fabi-version=2",
+      "-faligned-new",
+      "-I../../../source/include/pin",
+      "-I../../../source/include/pin/gen",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/stlport/include",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/crt/include",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
+      "-isystem",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1039,9 +1087,9 @@
       "obj-intel64/buffer_linux.o",
       "buffer_linux.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/buffer_linux.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/buffer_linux.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/buffer_linux.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/buffer_linux.o"
   },
   {
     "arguments": [
@@ -1064,17 +1112,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1087,9 +1135,9 @@
       "obj-intel64/fork_jit_tool.o",
       "fork_jit_tool.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/fork_jit_tool.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/fork_jit_tool.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/fork_jit_tool.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/fork_jit_tool.o"
   },
   {
     "arguments": [
@@ -1112,17 +1160,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1135,9 +1183,9 @@
       "obj-intel64/follow_child_tool.o",
       "follow_child_tool.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/follow_child_tool.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/follow_child_tool.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/follow_child_tool.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/follow_child_tool.o"
   },
   {
     "arguments": [
@@ -1160,17 +1208,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1183,9 +1231,9 @@
       "obj-intel64/strace.o",
       "strace.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/strace.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/strace.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/strace.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/strace.o"
   },
   {
     "arguments": [
@@ -1208,17 +1256,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1231,9 +1279,9 @@
       "obj-intel64/emudiv.o",
       "emudiv.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/emudiv.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/emudiv.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/emudiv.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/emudiv.o"
   },
   {
     "arguments": [
@@ -1256,17 +1304,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1279,9 +1327,9 @@
       "obj-intel64/replacesigprobed.o",
       "replacesigprobed.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/replacesigprobed.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/replacesigprobed.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/replacesigprobed.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/replacesigprobed.o"
   },
   {
     "arguments": [
@@ -1304,17 +1352,17 @@
       "-I../../../source/include/pin",
       "-I../../../source/include/pin/gen",
       "-isystem",
-      "/home/rr/pin/extras/stlport/include",
+      "/home/rr/graduate/pin/extras/stlport/include",
       "-isystem",
-      "/home/rr/pin/extras/libstdc++/include",
+      "/home/rr/graduate/pin/extras/libstdc++/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include",
+      "/home/rr/graduate/pin/extras/crt/include",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/arch-x86_64",
+      "/home/rr/graduate/pin/extras/crt/include/arch-x86_64",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi",
       "-isystem",
-      "/home/rr/pin/extras/crt/include/kernel/uapi/asm-x86",
+      "/home/rr/graduate/pin/extras/crt/include/kernel/uapi/asm-x86",
       "-I../../../extras/components/include",
       "-I../../../extras/xed-intel64/include/xed",
       "-I../../../source/tools/Utils",
@@ -1327,8 +1375,8 @@
       "obj-intel64/statica.o",
       "statica.cpp"
     ],
-    "directory": "/home/rr/pin/source/tools/ManualExamples",
-    "file": "/home/rr/pin/source/tools/ManualExamples/statica.cpp",
-    "output": "/home/rr/pin/source/tools/ManualExamples/obj-intel64/statica.o"
+    "directory": "/home/rr/graduate/pin/source/tools/ManualExamples",
+    "file": "/home/rr/graduate/pin/source/tools/ManualExamples/statica.cpp",
+    "output": "/home/rr/graduate/pin/source/tools/ManualExamples/obj-intel64/statica.o"
   }
 ]
