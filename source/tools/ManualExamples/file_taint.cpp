@@ -41,9 +41,11 @@ std::list<UINT64> addressTainted;
 std::list<REG> regsTainted;
 
 void init() {
-  string fsource[] = {"recv", "WSARecv", "recvfrom", "apr_socket_recv", "read"};
+  string fsource[] = {"recv", "WSARecv", "recvfrom", "apr_socket_recv",
+                      "read", "__read"};
   string fsp[] = {"PHP_MD5Update"};
-  string fleak[] = {"send", "sendto", "apr_socket_sendv", "write"};
+  string fleak[] = {"send",  "sendto", "apr_socket_sendv",
+                    "write", "writev", "__write"};
   f_source =
       vector<string>(fsource, fsource + sizeof(fsource) / sizeof(fsource[0]));
   f_sp = vector<string>(fsp, fsp + sizeof(fsp) / sizeof(fsp[0]));
@@ -330,10 +332,15 @@ VOID Instruction(INS ins, VOID *v) {
 VOID getParam(std::vector<string>::iterator name, UINT64 *ps0, UINT64 ps1) {
   std::cout << *name << ": param1 => " << ps0 << " , param2 => " << ps1
             << std::endl;
+}
+VOID getWrite(std::vector<string>::iterator name, UINT64 *ps0, UINT64 ps1) {
+  std::cout << *name << ": param1 => " << ps0 << " , param2 => " << ps1
+            << std::endl;
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
     if ((UINT64)ps0 < *it && (UINT64)(ps0) + ps1 > *it) {
-      std::cout << "Leaked information from address " << *it << std::endl;
+      std::cout << "\x1b[31mLeaked information from address " << *it
+                << "\x1b[0m" << std::endl;
     }
   }
 }
@@ -355,7 +362,8 @@ VOID getSendV(std::vector<string>::iterator name, UINT64 *ps) {
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
     if ((UINT64)p->iov_base < *it && (UINT64)(p->iov_base) + p->iov_len > *it) {
-      std::cout << "Leaked information from address " << *it << std::endl;
+      std::cout << "\x1b[31mLeaked information from address " << *it
+                << "\x1b[0m" << std::endl;
     }
   }
 }
@@ -365,10 +373,37 @@ VOID getRecv(std::vector<string>::iterator name, UINT64 *ps0, UINT64 *ps1) {
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
     if ((UINT64)ps0 < *it && (UINT64)(ps0) + *ps1 > *it) {
-      std::cout << "Leaked information from address " << *it << std::endl;
+      std::cout << "\x1b[31mLeaked information from address " << *it
+                << "\x1b[0m" << std::endl;
     }
   }
 }
+
+UINT64 tmp_addr;
+bool taint = false;
+VOID getReadParam(std::vector<string>::iterator name, UINT64 ps0, UINT64 *ps1) {
+  std::cout << *name << ": param1 => " << ps0 << " , param2 => " << ps1
+            << std::endl;
+  if (ps0 == 0) {
+    tmp_addr = (UINT64)ps1;
+    taint = true;
+  }
+}
+
+VOID getReadRet(std::vector<string>::iterator name, UINT64 ret0) {
+  std::cout << *name << ": ret => " << ret0 << std::endl;
+  if (taint) {
+    for (size_t i = 0; i < ret0; i++)
+      addressTainted.push_back((UINT64)(tmp_addr + i));
+    std::cout << "[TAINT]\tbytes tainted from " << std::hex << "0x"
+              << (UINT64)tmp_addr << " to 0x" << (UINT64)(tmp_addr + ret0)
+              << " (via " << *name << ")" << std::endl;
+    taint = false;
+  }
+}
+
+std::list<string> names;
+VOID getName(CHAR *name) { printf("\x1b[31m%s\x1b[0m\n", name); }
 
 bool in(string s, vector<string> array) {
   std::vector<string>::iterator pos = std::find(array.begin(), array.end(), s);
@@ -381,6 +416,7 @@ bool in(string s, vector<string> array) {
 VOID Routine(RTN rtn, VOID *v) {
   // Allocate a counter for this routine
   string name = RTN_Name(rtn);
+  names.push_back(name);
   RTN_Open(rtn);
   // std::cout << name << std::endl;
   // Insert a call at the entry point of a routine to increment the call count
@@ -399,12 +435,16 @@ VOID Routine(RTN rtn, VOID *v) {
     }
   }
   if (in(name, f_leak) /*|| in(name, f_sp) || in(name, f_leak)*/) {
-    // std::cout <<"Name: " << name.c_str() << std::endl;version
+    std::cout << "Name: " << name.c_str() << std::endl;
     std::vector<string>::iterator pos =
         std::find(f_leak.begin(), f_leak.end(), name);
     if (name == "apr_socket_sendv" || name == "writev") {
       RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getSendV, IARG_ADDRINT, pos,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 1, IARG_END);
+    } else if (name == "write" || name == "__write") {
+      RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getWrite, IARG_ADDRINT, pos,
+                     IARG_FUNCARG_ENTRYPOINT_VALUE, 1,
+                     IARG_FUNCARG_ENTRYPOINT_VALUE, 2, IARG_END);
     } else {
       RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getParam, IARG_ADDRINT, pos,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 1,
@@ -419,13 +459,21 @@ VOID Routine(RTN rtn, VOID *v) {
       RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getRecv, IARG_ADDRINT, pos,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 1,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 2, IARG_END);
+    } else if (name == "read" || name == "__read") {
+      // RTN_InsertCall(rtn, IPOINT_AFTER, (AFUNPTR), ...)
+      RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getReadParam, IARG_ADDRINT,
+                     pos, IARG_FUNCARG_ENTRYPOINT_VALUE, 0,
+                     IARG_FUNCARG_ENTRYPOINT_VALUE, 1, IARG_END);
+      RTN_InsertCall(rtn, IPOINT_AFTER, (AFUNPTR)getReadRet, IARG_ADDRINT, pos,
+                     IARG_FUNCRET_EXITPOINT_VALUE, IARG_END);
     } else {
       RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getParam, IARG_ADDRINT, pos,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 1,
                      IARG_FUNCARG_ENTRYPOINT_VALUE, 2, IARG_END);
     }
   }
-
+  // RTN_InsertCall(rtn, IPOINT_BEFORE, (AFUNPTR)getName, IARG_ADDRINT,
+  //  names.back().c_str(), IARG_END);
   // if (name == "PHP_MD5Final") {
   //   // std::cout <<"Name: " << name.c_str() << std::endl;version
   //   // std::vector<string>::iterator pos =
