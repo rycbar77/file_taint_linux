@@ -338,7 +338,7 @@ VOID getWrite(std::vector<string>::iterator name, UINT64 *ps0, UINT64 ps1) {
             << std::endl;
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
-    if ((UINT64)ps0 < *it && (UINT64)(ps0) + ps1 > *it) {
+    if ((UINT64)ps0 <= *it && (UINT64)(ps0) + ps1 > *it) {
       std::cout << "\x1b[31mLeaked information from address " << *it
                 << "\x1b[0m" << std::endl;
     }
@@ -361,7 +361,7 @@ VOID getSendV(std::vector<string>::iterator name, UINT64 *ps) {
             << p->iov_len << std::endl;
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
-    if ((UINT64)p->iov_base < *it && (UINT64)(p->iov_base) + p->iov_len > *it) {
+    if ((UINT64)p->iov_base <= *it && (UINT64)(p->iov_base) + p->iov_len > *it) {
       std::cout << "\x1b[31mLeaked information from address " << *it
                 << "\x1b[0m" << std::endl;
     }
@@ -372,7 +372,7 @@ VOID getRecv(std::vector<string>::iterator name, UINT64 *ps0, UINT64 *ps1) {
             << std::endl;
   for (std::list<UINT64>::iterator it = addressTainted.begin();
        it != addressTainted.end(); it++) {
-    if ((UINT64)ps0 < *it && (UINT64)(ps0) + *ps1 > *it) {
+    if ((UINT64)ps0 <= *it && (UINT64)(ps0) + *ps1 > *it) {
       std::cout << "\x1b[31mLeaked information from address " << *it
                 << "\x1b[0m" << std::endl;
     }
